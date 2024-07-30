@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    loadContent("index.html");
+    loadContent("info.html");
 });
 
 document.getElementById("aboutBtn").addEventListener("click", function () {
