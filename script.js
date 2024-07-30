@@ -1,6 +1,13 @@
-
 document.addEventListener("DOMContentLoaded", function () {
-    loadContent("info.html");
+    loadContent("home.html");
+});
+
+document.getElementById("homeBtn").addEventListener("click", function () {
+    loadContent("home.html");
+});
+
+document.getElementById("servicesBtn").addEventListener("click", function () {
+    loadContent("services.html");
 });
 
 document.getElementById("aboutBtn").addEventListener("click", function () {
@@ -9,6 +16,10 @@ document.getElementById("aboutBtn").addEventListener("click", function () {
 
 document.getElementById("contactBtn").addEventListener("click", function () {
     loadContent("contact.html");
+});
+
+document.getElementById("testimonialsBtn").addEventListener("click", function () {
+    loadContent("testimonials.html");
 });
 
 function loadContent(page) {
