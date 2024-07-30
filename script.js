@@ -1,4 +1,7 @@
-loadContent("index.html");
+
+document.addEventListener("DOMContentLoaded", function () {
+    loadContent("index.html");
+});
 
 document.getElementById("aboutBtn").addEventListener("click", function () {
     loadContent("about.html");
