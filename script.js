@@ -1,3 +1,5 @@
+loadContent("index.html");
+
 document.getElementById("aboutBtn").addEventListener("click", function () {
     loadContent("about.html");
 });
